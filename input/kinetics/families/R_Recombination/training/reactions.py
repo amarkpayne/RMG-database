@@ -415,20 +415,6 @@ Reported rate was divided by 2 due to a 50% branching ratio (Fig. 7 in the manus
 )
 
 entry(
-    index = 31,
-    label = "CN + NCN <=> NCNCN",
-    degeneracy = 2,
-    kinetics = Arrhenius(A=(1.010e+09, 'cm^3/(mol*s)'), n=0, Ea=(-34691, 'cal/mol'), T0=(1, 'K'), Tmin=(2000, 'K'), Tmax=(4000, 'K')),
-    rank = 2,
-    shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
-u"""
-See Table 1 on p. 2397 in L.V Moskaleva, M.C. Lin, Proceedings of the Combustion Institute, 2000, 28(2), 2393-2401, doi: 10.1016/S0082-0784(00)80652-9
-Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
-""",
-)
-
-entry(
     index = 32,
     label = "HSOO <=> SH + O2",
     degeneracy = 1,

@@ -1,0 +1,118 @@
+Identifiers:
+  adjacency_list: |
+    1 S u0 p0 c0 {2,S} {3,S} {4,S} {5,S} {6,S} {7,S}
+    2 F u0 p3 c0 {1,S}
+    3 F u0 p3 c0 {1,S}
+    4 F u0 p3 c0 {1,S}
+    5 F u0 p3 c0 {1,S}
+    6 F u0 p3 c0 {1,S}
+    7 F u0 p3 c0 {1,S}
+  formula: F6S
+  inchi: InChI=1S/F6S/c1-7(2,3,4,5)6
+  inchi_key: SFZCNBIFKDRMGX-UHFFFAOYSA-N
+  label: Sulfur Hexafluoride
+  smiles: FS(F)(F)(F)(F)F
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 146.05543122397657
+  multiplicity: 1
+  symmetry_number: 1.0
+RMG_version: 3.0.0
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -2618425610.8189836
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -291.31841045017944
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 76.13307321106777
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 340.8
+        - 341.0
+        - 341.7
+        - 515.5
+        - 515.6
+        - 515.6
+        - 606.7
+        - 606.7
+        - 607.5
+        - 645.1
+        - 645.3
+        - 782.6
+        - 953.6
+        - 955.1
+        - 955.4
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.0
+        - - -0.5468355275
+          - -1.2310281003
+          - 0.8039157298
+        - - -1.4414386787
+          - 0.6183114332
+          - -0.0335268635
+        - - 0.2906166528
+          - 0.7504321669
+          - 1.3463879375
+        - - 1.4414386787
+          - -0.6183114332
+          - 0.0335268635
+        - - -0.2906166528
+          - -0.7504321669
+          - -1.3463879375
+        - - 0.5468355275
+          - 1.2310281003
+          - -0.8039157298
+      isotopes:
+      - 32
+      - 19
+      - 19
+      - 19
+      - 19
+      - 19
+      - 19
+      symbols:
+      - S
+      - F
+      - F
+      - F
+      - F
+      - F
+      - F
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+index: 391
+is_ts: false
+reference_data:
+  CCCBDB:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.8
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: -1220.47
+      class: ThermoData

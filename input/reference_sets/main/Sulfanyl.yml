@@ -1,0 +1,75 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 S u1 p2 c0 {2,S}
+    2 H u0 p0 c0 {1,S}
+  formula: HS
+  inchi: InChI=1S/HS/h1H
+  inchi_key: PXQLVRUNWNTZOS-UHFFFAOYSA-N
+  label: Sulfanyl
+  smiles: '[SH]'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 33.07294319161546
+  multiplicity: 2
+  symmetry_number: 1.0
+RMG_version: 3.0.0
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -1046824166.3134408
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 33.047471688854394
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 45.88241499686204
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 2708.8
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.07895806229999999
+        - - 0.0
+          - 0.0
+          - -1.2633289964
+      isotopes:
+      - 32
+      - 1
+      symbols:
+      - S
+      - H
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+index: 5
+is_ts: false
+reference_data:
+  Third Millennium Ideal Gas and Condensed Phase Thermochemical Database for Combustion:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.52
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 141.87
+      class: ThermoData

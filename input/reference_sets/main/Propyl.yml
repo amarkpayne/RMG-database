@@ -1,0 +1,146 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+    2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+    3  C u1 p0 c0 {1,S} {9,S} {10,S}
+    4  H u0 p0 c0 {1,S}
+    5  H u0 p0 c0 {1,S}
+    6  H u0 p0 c0 {2,S}
+    7  H u0 p0 c0 {2,S}
+    8  H u0 p0 c0 {2,S}
+    9  H u0 p0 c0 {3,S}
+    10 H u0 p0 c0 {3,S}
+  formula: C3H7
+  inchi: InChI=1S/C3H7/c1-3-2/h1,3H2,2H3
+  inchi_key: OCBFFGCSTGGPSQ-UHFFFAOYSA-N
+  label: Propyl
+  smiles: '[CH2]CC'
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 43.08768408162869
+  multiplicity: 2
+  symmetry_number: 6.0
+RMG_version: 3.0.0
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -310931341.0870316
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 24.090669065812968
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 67.32127566134486
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 70.7
+        - 244.0
+        - 374.7
+        - 485.5
+        - 757.6
+        - 889.0
+        - 926.6
+        - 1047.1
+        - 1099.1
+        - 1168.3
+        - 1263.8
+        - 1360.8
+        - 1407.0
+        - 1458.5
+        - 1461.5
+        - 1487.8
+        - 1496.3
+        - 2970.6
+        - 3023.6
+        - 3052.8
+        - 3116.6
+        - 3124.9
+        - 3165.2
+        - 3266.6
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2186561475999997
+          - -0.2407013277
+          - -0.0219834402
+        - - -0.0808877942
+          - 0.5556121723
+          - 0.0289893259
+        - - -1.2948405409
+          - -0.29609006219999995
+          - -0.0177463317
+        - - 1.2736423548
+          - -0.9437474168
+          - 0.8110886219
+        - - 2.0887834528
+          - 0.41375871179999996
+          - 0.0335827057
+        - - 1.2860678749
+          - -0.8152402605
+          - -0.9469523673999998
+        - - -0.0926997223
+          - 1.1684122873
+          - 0.9428211843
+        - - -0.1066526894
+          - 1.2832022294999998
+          - -0.7904698339999999
+        - - -2.2730328932
+          - 0.1381198242
+          - -0.165895121
+        - - -1.2336752529
+          - -1.3574300702
+          - 0.1802674863
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+index: 189
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.6
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 100.87
+      class: ThermoData

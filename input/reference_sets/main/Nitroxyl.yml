@@ -1,0 +1,92 @@
+Identifiers:
+  adjacency_list: |
+    multiplicity 2
+    1 O u1 p2 c0 {2,S}
+    2 N u0 p1 c0 {1,S} {3,S} {4,S}
+    3 H u0 p0 c0 {2,S}
+    4 H u0 p0 c0 {2,S}
+  formula: H2NO
+  inchi: InChI=1S/H2NO/c1-2/h1H2
+  inchi_key: YLFIGGHWWPSIEG-UHFFFAOYSA-N
+  label: Nitroxyl
+  smiles: N[O]
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 32.02202229588874
+  multiplicity: 2
+  symmetry_number: 1.0
+RMG_version: 3.0.0
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -344204841.5304625
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 10.98919216765818
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 57.056328858149975
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 236.2
+        - 1273.5
+        - 1420.0
+        - 1664.7
+        - 3460.0
+        - 3594.8
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.5385433221
+          - -0.0260916563
+          - -4.0e-10
+        - - 0.7309499368
+          - 0.0064543392
+          - 8.0e-10
+        - - -1.0388981146
+          - 0.0655034401
+          - -0.87583556
+        - - -1.0388981146
+          - 0.0655034401
+          - 0.87583556
+      isotopes:
+      - 14
+      - 16
+      - 1
+      - 1
+      symbols:
+      - N
+      - O
+      - H
+      - H
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+index: 66
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.9
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 64.52
+      class: ThermoData

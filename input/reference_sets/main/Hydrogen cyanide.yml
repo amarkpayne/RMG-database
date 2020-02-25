@@ -1,0 +1,83 @@
+Identifiers:
+  adjacency_list: |
+    1 N u0 p1 c0 {2,T}
+    2 C u0 p0 c0 {1,T} {3,S}
+    3 H u0 p0 c0 {2,S}
+  formula: CHN
+  inchi: InChI=1S/CHN/c1-2/h1H
+  inchi_key: LELOWRISYMNNSU-UHFFFAOYSA-N
+  label: Hydrogen cyanide
+  smiles: C#N
+Properties:
+  charge: 0
+  molecular_weight:
+    class: ScalarQuantity
+    units: amu
+    value: 27.02538278331575
+  multiplicity: 1
+  symmetry_number: 1.0
+RMG_version: 3.0.0
+calculated_data:
+  wb97m-v/def2-tzvpd:
+    class: CalculatedDataEntry
+    electronic_energy:
+      class: ScalarQuantity
+      units: J/mol
+      value: -245303063.313402
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 30.90145886796686
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 48.06137008729227
+      class: ThermoData
+    unscaled_freqs:
+      class: ArrayQuantity
+      units: cm^-1
+      value:
+        class: np_array
+        object:
+        - 766.3
+        - 766.3
+        - 2237.2
+        - 3459.9
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 2.4769e-06
+          - -0.4959063589
+        - - -0.0
+          - -1.0244e-06
+          - 0.6483122641
+        - - -0.0
+          - -7.6906e-06
+          - -1.5627476955
+      isotopes:
+      - 12
+      - 14
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+class: ReferenceSpecies
+datetime: 2020-02-24 11:05
+default_xyz_chemistry: wb97m-v/def2-tzvpd
+index: 47
+is_ts: false
+reference_data:
+  ATcT:
+    class: ReferenceDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        uncertainty: 0.091
+        uncertainty_type: +|-
+        units: kJ/mol
+        value: 129.283
+      class: ThermoData

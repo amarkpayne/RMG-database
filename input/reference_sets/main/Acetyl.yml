@@ -22,6 +22,54 @@ Properties:
   symmetry_number: 3.0
 RMG_version: 3.0.0
 calculated_data:
+  b3lyp-d3bj/def2-tzvp:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -4.91119931133959
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 64.16589058744316
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.16302
+          - -0.098951
+          - -5.0e-06
+        - - -0.247555
+          - 0.43026899999999996
+          - -2.0e-05
+        - - -1.261138
+          - -0.17017499999999997
+          - 2.8e-05
+        - - 1.679677
+          - 0.289895
+          - -0.878344
+        - - 1.175866
+          - -1.1920209999999998
+          - 0.000114
+        - - 1.679745
+          - 0.290093
+          - 0.878205
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
     electronic_energy:
@@ -32,7 +80,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -3.478426773429324
+        value: -3.478426773429323
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

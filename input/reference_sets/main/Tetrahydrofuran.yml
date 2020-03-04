@@ -28,6 +28,89 @@ Properties:
   symmetry_number: 2.0
 RMG_version: 3.0.0
 calculated_data:
+  b3lyp-d3bj/def2-tzvp:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -41.557250670712286
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 71.87237296923374
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.003306999999999999
+          - -1.249319
+          - -0.005185
+        - - -1.167058
+          - -0.426232
+          - 0.127654
+        - - -0.729408
+          - 0.9934879999999998
+          - -0.22569799999999998
+        - - 0.733389
+          - 0.988831
+          - 0.22720999999999994
+        - - 1.164328
+          - -0.431052
+          - -0.133655
+        - - -1.5320209999999999
+          - -0.481219
+          - 1.160111
+        - - -1.945433
+          - -0.813458
+          - -0.532492
+        - - -1.3337029999999999
+          - 1.754969
+          - 0.266836
+        - - -0.7911629999999997
+          - 1.154244
+          - -1.304358
+        - - 1.341283
+          - 1.750043
+          - -0.261294
+        - - 0.7958879999999999
+          - 1.143585
+          - 1.306705
+        - - 1.940845
+          - -0.8254449999999999
+          - 0.524435
+        - - 1.529058
+          - -0.482298
+          - -1.166386
+      isotopes:
+      - 16
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
     electronic_energy:
@@ -168,5 +251,5 @@ reference_data:
         uncertainty: 0.8
         uncertainty_type: +|-
         units: kJ/mol
-        value: -184.20000000000007
+        value: -184.20000000000013
       class: ThermoData

@@ -25,6 +25,74 @@ Properties:
   symmetry_number: 3.0
 RMG_version: 3.0.0
 calculated_data:
+  b3lyp-d3bj/def2-tzvp:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 60.27751163866409
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 72.81777139521544
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.001471
+          - 0.037056
+          - 0.000136
+        - - 0.553644
+          - 0.015571999999999997
+          - -5.7e-05
+        - - -0.192273
+          - 1.109364
+          - 0.001065
+        - - -1.41358
+          - 0.595973
+          - 0.0003589999999999999
+        - - -1.40582
+          - -0.7526
+          - -0.001123
+        - - -0.14732499999999996
+          - -1.107159
+          - -0.0013709999999999998
+        - - 2.358738
+          - 0.551811
+          - 0.8901529999999998
+        - - 2.358943
+          - 0.553837
+          - -0.888625
+        - - 2.340328
+          - -0.994518
+          - -0.000999
+        - - -2.308468
+          - 1.193432
+          - 0.000915
+      isotopes:
+      - 12
+      - 14
+      - 14
+      - 12
+      - 14
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - N
+      - C
+      - N
+      - N
+      - H
+      - H
+      - H
+      - H
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
     electronic_energy:
@@ -138,8 +206,8 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 0.7000000000000003
+        uncertainty: 0.7000000000000005
         uncertainty_type: +|-
         units: kJ/mol
-        value: 328.40000000000015
+        value: 328.40000000000026
       class: ThermoData

@@ -28,6 +28,89 @@ Properties:
   symmetry_number: 18.0
 RMG_version: 3.0.0
 calculated_data:
+  b3lyp-d3bj/def2-tzvp:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -153.21643464134326
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 88.52922177288835
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.933309
+          - -1.15574
+          - -0.038431
+        - - -0.9405719999999997
+          - -0.428783
+          - -0.798962
+        - - 2.9999999999999992e-06
+          - 0.569981
+          - 2.0e-06
+        - - -0.751162
+          - 1.250748
+          - 0.9989419999999999
+        - - 0.751172
+          - 1.25074
+          - -0.998939
+        - - 0.940569
+          - -0.428793
+          - 0.798967
+        - - 1.933299
+          - -1.15576
+          - 0.038437
+        - - -2.467326
+          - -1.753129
+          - -0.771422
+        - - -2.606001
+          - -0.4590109999999999
+          - 0.456321
+        - - -1.448115
+          - -1.798778
+          - 0.695474
+        - - 2.605998
+          - -0.459039
+          - -0.456316
+        - - 2.467309
+          - -1.753155
+          - 0.771428
+        - - 1.448098
+          - -1.7987939999999998
+          - -0.695468
+      isotopes:
+      - 12
+      - 16
+      - 32
+      - 16
+      - 16
+      - 16
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - S
+      - O
+      - O
+      - O
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
     electronic_energy:
@@ -165,7 +248,7 @@ reference_data:
     thermo_data:
       H298:
         class: ScalarQuantity
-        uncertainty: 1.9000000000000006
+        uncertainty: 1.900000000000001
         uncertainty_type: +|-
         units: kJ/mol
         value: -687.0

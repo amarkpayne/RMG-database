@@ -29,6 +29,94 @@ Properties:
   symmetry_number: 1.0
 RMG_version: 3.0.0
 calculated_data:
+  b3lyp-d3bj/def2-tzvp:
+    class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -27.106843873736594
+      S298:
+        class: ScalarQuantity
+        units: cal/(mol*K)
+        value: 74.16960450411965
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.486479
+          - -1.237321
+          - 0.29837799999999987
+        - - -0.884373
+          - -1.011052
+          - -0.319115
+        - - -1.433626
+          - 0.348637
+          - 0.120604
+        - - -0.340584
+          - 1.377794
+          - 0.059052
+        - - 0.941076
+          - 1.040822
+          - -0.074496
+        - - 1.42536
+          - -0.230653
+          - -0.09915699999999997
+        - - 0.4157729999999999
+          - -1.225737
+          - 1.392306
+        - - 0.9246279999999999
+          - -2.184347
+          - -0.012707999999999997
+        - - -0.787278
+          - -1.038164
+          - -1.407335
+        - - -1.552753
+          - -1.8245029999999998
+          - -0.029502999999999998
+        - - -2.264552
+          - 0.644721
+          - -0.525494
+        - - -1.8479309999999995
+          - 0.28189
+          - 1.132989
+        - - -0.592446
+          - 2.42933
+          - 0.084376
+        - - 1.737722
+          - 1.764677
+          - -0.18485099999999993
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   wb97m-v/def2-tzvpd:
     class: CalculatedDataEntry
     electronic_energy:
@@ -39,7 +127,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -29.40615613970963
+        value: -29.406156139709623
       S298:
         class: ScalarQuantity
         units: cal/(mol*K)

@@ -338,6 +338,12 @@ atom_energies = {
         'O': -74.97847534 + SOC['O'], 'S': -397.6571654 + SOC['S']
     },
 
+    'dlpno-ccsd(t)-f12/cc-pvtz-f12': {
+        'H': -0.49994557 + SOC['H'], 'C': -37.787534789861 + SOC['C'], 'N': -54.527017694693 + SOC['N'],
+        'O': -74.999933174529 + SOC['O'], 'S': -397.668474715749 + SOC['S'], 'Cl': -459.696620952166 + SOC['Cl'],
+        'F': -99.661353556020 + SOC['F'],
+    }
+
 }
 
 # Petersson-type bond additivity correction parameters

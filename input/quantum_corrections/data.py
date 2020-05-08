@@ -338,6 +338,14 @@ atom_energies = {
         'O': -74.97847534 + SOC['O'], 'S': -397.6571654 + SOC['S']
     },
 
+    # Calculated using single atom energies. Full model chemistry is:
+    # uHF dlpno-ccsd(t)-f12 cc-pvdz-f12 aug-cc-pvdz/c cc-pvdz-f12-cabs  TightSCF tightPNO
+    'dlpno-ccsd(t)-f12/cc-pvdz-f12': {
+        'H': -0.49980981 + SOC['H'], 'C': -37.783858494233 + SOC['C'], 'N': -54.521290948316 + SOC['N'],
+        'O': -74.987793987468 + SOC['O'], 'S': -397.654801621994 + SOC['S'], 'Cl': -459.677284014605 + SOC['Cl'],
+        'F': -99.643299597155 + SOC['F'],
+    },
+
     'dlpno-ccsd(t)-f12/cc-pvtz-f12': {
         'H': -0.49994557 + SOC['H'], 'C': -37.787534789861 + SOC['C'], 'N': -54.527017694693 + SOC['N'],
         'O': -74.999933174529 + SOC['O'], 'S': -397.668474715749 + SOC['S'], 'Cl': -459.696620952166 + SOC['Cl'],

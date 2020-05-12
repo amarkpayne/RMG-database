@@ -78,6 +78,12 @@ atom_energies = {
     # Note: If your model chemistry does not include spin orbit coupling, you should add the corrections
     # to the energies here
 
+    'b3lyp-d3bj/def2-tzvp': {
+        'H': -0.502154224100 + SOC['H'], 'N': -54.6039773856 + SOC['N'], 'O': -75.0962752574 + SOC['O'],
+        'C': -37.8594780924 + SOC['C'], 'P': 0, 'S': -398.132374203 + SOC['S'], 'Cl': -460.166978744 + SOC['Cl'],
+        'F': -99.7701500623 + SOC['F'], 'Br': 0,
+    },
+
     'wb97m-v/def2-tzvpd': {
         'H': -0.4941110259 + SOC['H'],
         'C': -37.8458797086 + SOC['C'],
@@ -438,6 +444,7 @@ freq_dict = {'hf/sto-3g': 0.817,  # [2]
              'hf/6-31+g(d,p)': 0.915 * 1.014,  # [1] Table 7
              'pm3': 0.940 * 1.014,  # [1] Table 7, the 0.940 value is the ZPE scale factor
              'pm6': 1.078 * 1.014,  # [1] Table 7, the 1.078 value is the ZPE scale factor
+             'b3lyp-d3bj/def2-tzvp': 0.999,  # [4]
              'b3lyp/6-31g(d,p)': 0.961,  # [2]
              'b3lyp/6-311g(d,p)': 0.967,  # [2]
              'b3lyp/6-311+g(3df,2p)': 0.967,  # [2]

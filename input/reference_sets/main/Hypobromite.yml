@@ -100,6 +100,10 @@ calculated_data:
       - Br
       - O
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
+    bac_hf298:
+      class: ScalarQuantity
+      units: kcal/mol
+      value: -23.894999999999996
     class: CalculatedDataEntry
     thermo_data:
       H298:

@@ -73,7 +73,7 @@ calculated_data:
   : bac_hf298:
       class: ScalarQuantity
       units: kcal/mol
-      value: -51.452
+      value: -51.504
     class: CalculatedDataEntry
     thermo_data:
       H298:
@@ -136,7 +136,7 @@ calculated_data:
     bac_hf298:
       class: ScalarQuantity
       units: kcal/mol
-      value: -52.271
+      value: -52.461999999999996
     class: CalculatedDataEntry
     thermo_data:
       H298:
@@ -321,7 +321,7 @@ calculated_data:
     bac_hf298:
       class: ScalarQuantity
       units: kcal/mol
-      value: -51.663
+      value: -51.822
     class: CalculatedDataEntry
     thermo_data:
       H298:

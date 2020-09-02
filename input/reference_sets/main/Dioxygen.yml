@@ -136,7 +136,7 @@ calculated_data:
   : bac_hf298:
       class: ScalarQuantity
       units: kcal/mol
-      value: -2.8289999999999997
+      value: -3.747
     class: CalculatedDataEntry
     thermo_data:
       H298:
@@ -164,7 +164,7 @@ calculated_data:
     bac_hf298:
       class: ScalarQuantity
       units: kcal/mol
-      value: -1.778
+      value: -2.205
     class: CalculatedDataEntry
     thermo_data:
       H298:
@@ -244,7 +244,7 @@ calculated_data:
     bac_hf298:
       class: ScalarQuantity
       units: kcal/mol
-      value: -3.769
+      value: -4.53
     class: CalculatedDataEntry
     thermo_data:
       H298:
@@ -322,6 +322,6 @@ reference_data:
     zpe:
       class: ScalarQuantity
       units: kJ/mol
-      value: 9.419155000000002
+      value: 9.419155000000003
 smiles: '[O][O]'
 symmetry_number: 2.0

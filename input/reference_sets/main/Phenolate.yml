@@ -318,12 +318,16 @@ calculated_data:
       - H
       - H
   LevelOfTheory(method='b3lypd3bj',basis='def2tzvp',software='gaussian'):
+    bac_hf298:
+      class: ScalarQuantity
+      units: kcal/mol
+      value: -38.047
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -20.74073455684502
+        value: -20.740734556845016
       class: ThermoData
     xyz_dict:
       coords:
@@ -475,7 +479,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -34.18281418266183
+        value: -34.182814182661815
       class: ThermoData
     xyz_dict:
       coords:

@@ -188,7 +188,7 @@ calculated_data:
   : bac_hf298:
       class: ScalarQuantity
       units: kcal/mol
-      value: 34.783
+      value: 34.444
     class: CalculatedDataEntry
     thermo_data:
       H298:
@@ -226,7 +226,7 @@ calculated_data:
     bac_hf298:
       class: ScalarQuantity
       units: kcal/mol
-      value: 34.446
+      value: 34.213
     class: CalculatedDataEntry
     thermo_data:
       H298:
@@ -336,13 +336,13 @@ calculated_data:
     bac_hf298:
       class: ScalarQuantity
       units: kcal/mol
-      value: 35.706
+      value: 35.406
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 35.138883892881445
+        value: 35.13888389288144
       class: ThermoData
     xyz_dict:
       coords:
@@ -402,7 +402,7 @@ reference_data:
   CCCBDB:
     atomization_energy:
       class: ScalarQuantity
-      uncertainty: 0.7000000000000001
+      uncertainty: 0.7000000000000002
       uncertainty_type: +|-
       units: kJ/mol
       value: 1209.3

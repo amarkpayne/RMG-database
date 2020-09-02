@@ -342,7 +342,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 35.13888389288144
+        value: 35.138883892881445
       class: ThermoData
     xyz_dict:
       coords:
@@ -402,7 +402,7 @@ reference_data:
   CCCBDB:
     atomization_energy:
       class: ScalarQuantity
-      uncertainty: 0.7000000000000002
+      uncertainty: 0.7000000000000001
       uncertainty_type: +|-
       units: kJ/mol
       value: 1209.3

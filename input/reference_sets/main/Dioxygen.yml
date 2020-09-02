@@ -322,6 +322,6 @@ reference_data:
     zpe:
       class: ScalarQuantity
       units: kJ/mol
-      value: 9.419155000000003
+      value: 9.419155000000002
 smiles: '[O][O]'
 symmetry_number: 2.0

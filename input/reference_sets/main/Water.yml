@@ -353,7 +353,7 @@ reference_data:
       uncertainty: 0.1
       uncertainty_type: +|-
       units: kJ/mol
-      value: 917.8000000000002
+      value: 917.8000000000001
     class: ReferenceDataEntry
     xyz_dict:
       coords:
